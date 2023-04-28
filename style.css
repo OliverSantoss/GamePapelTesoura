@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color:beige;
+}
+.player-options,
+.enemy-options{
+    width: 50%;
+}
+.player-options img,
+.enemy-options img{
+    width: 50%;
+    max-width: 200px;
+    opacity: 0.3;
+    cursor: pointer;
+}
+.aling{
+    display: flex;
+}
